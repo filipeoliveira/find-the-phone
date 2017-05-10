@@ -11,13 +11,13 @@ Para executar é necessário passar como parâmetro o arquivo contendo as expres
 ### Exemplo:
 `js findphone.js random-phone-list.txt`
 
-Há um tratamento de erros no findphone.js para verificar se há alguma entrada que não esteja no padro definido (máximo de 30 caracteres por linha) e um tratamento para não considerar a última iteração da leitura do arquivo (EOF).
+Há um tratamento de erros no findphone.js para verificar se há alguma entrada que não esteja no padrão definido (máximo de 30 caracteres por linha) e um tratamento para não considerar a última iteração da leitura do arquivo (EOF).
 
-Há também um aviso caso o usurio não passe nenhum parâmetro ao executar o arquivo.
+Há também um aviso caso o usuário não passe nenhum parâmetro ao executar o arquivo.
 
 --
 
-Escrevi também um programa para gerar entradas aleatórias para poder testar a solução do problema proposto. O programa recebe como parâmetro: O número de expressões telefonicas a serem escritas no arquivo e o tamanho de cada expressão telefonica. Tais informações são escritas no arquivo **random-phone-list.js**. 
+Escrevi também um programa para gerar entradas aleatórias a fim de poder testar a solução do problema proposto. O programa recebe como parâmetro: O número de expressões telefônicas a serem escritas no arquivo e o tamanho de cada expressão telefônica. Tais informações são escritas no arquivo **random-phone-list.js**. 
 
 ### Exemplo:
 `js generateNumbers.js 20 25`
